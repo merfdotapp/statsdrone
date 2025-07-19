@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.blog-post__contents * {
+  font-family: 'Inter', sans-serif;
+}
+
+/* input[type="search"] {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  color: #3A3A3A;
+  width: 100%;
+}
+
+input[type="search"]::placeholder {
+  color: #000;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+aside .author::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc(100% - 20px);
+  height: 5px;
+  background-color: #362F8A;
+}
+
+aside .authors {
+
+} */
+
+input[type="search"]::placeholder {
+  @apply underline underline-offset-4 text-black;
+}

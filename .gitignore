@@ -1,0 +1,36 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/dist
+/build
+
+# misc
+.DS_Store
+.env
+.env.*.local
+.vitepress/cache
+.vscode
+
+# local logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# editor folders
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# bun
+.bun
+
+# OS generated
+Thumbs.db
+ehthumbs.db
