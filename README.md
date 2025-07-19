@@ -22,3 +22,5 @@ npm run build
 ```bash
 npm run dev
 ```
+
+see (design)[https://www.figma.com/design/ZEIEWfm9piAx2AnCoJWgsi/StatsDrone-website-designs?node-id=12-79&t=wu07OurjaaAbqh7Y-0]
